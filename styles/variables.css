@@ -22,6 +22,7 @@
     --title-decor: var(--accent-color);
     --image-title-color: var(--background-color);
     --link-shadow: var(--accent-color);
+    --feature-color: var(--accent-color);
   }
 }
 
@@ -37,8 +38,9 @@
     --title-massage-color: var(--main-text-color);
     --corners-color: var(--main-text-color);
     --background-image: url(/images/cover-image-light.png);
-    --title-decor: var(#FF8DCB);
+    --title-decor: #FF8DCB;
     --image-title-color: var(--main-text-color);
     --link-shadow: var(--title-decor);
+    --feature-color: var(--background-color)
   }
 }
