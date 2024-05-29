@@ -41,6 +41,6 @@
     --title-decor: #FF8DCB;
     --image-title-color: var(--main-text-color);
     --link-shadow: var(--title-decor);
-    --feature-color: var(--background-color)
+    --feature-color: var(--background-color);
   }
 }
