@@ -2,8 +2,8 @@
     background: var(--background-image) no-repeat top center, var(--background-color);
     background-size: auto 768px;
     background-attachment: fixed;
-    color: var(--main-text-color); 
-}
+    color: var(--main-text-color);
+  }
 
 .header {
   position: relative;
@@ -181,6 +181,11 @@
     margin: 23px 0;
     gap: 50px;
   }
+}
+
+.text__link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0px var(--link-shadow);
 }
 
 .section:first-of-type,

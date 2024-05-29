@@ -17,6 +17,7 @@
   --background-image: url(/images/cover-image-light.png);
   --title-decor:#FF8DCB;
   --image-title-color: var(--main-text-color);
+  --link-shadow: var(--title-decor);
 }
 
 .page.theme_light .header__rec {

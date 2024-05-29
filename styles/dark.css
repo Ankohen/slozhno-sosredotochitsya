@@ -17,4 +17,5 @@
   --background-image: url(/images/cover-image-dark.png);
   --title-decor: var(--accent-color);
   --image-title-color: var(--background-color);
+  --link-shadow: var(--accent-color);
 }

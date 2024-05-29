@@ -21,6 +21,7 @@
     --background-image: url(/images/cover-image-dark.png);
     --title-decor: var(--accent-color);
     --image-title-color: var(--background-color);
+    --link-shadow: var(--accent-color);
   }
 }
 
@@ -38,5 +39,6 @@
     --background-image: url(/images/cover-image-light.png);
     --title-decor: var(#FF8DCB);
     --image-title-color: var(--main-text-color);
+    --link-shadow: var(--title-decor);
   }
 }
