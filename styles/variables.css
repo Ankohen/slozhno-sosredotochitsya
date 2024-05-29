@@ -1,4 +1,42 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-color: #ff0070;
+  --font-size: 18px;
+  --line-height: 23.4px;
+  --font-family: "IBM Plex mono";
+  --font-weight: 400;
+  --theme-dark: url(/images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --accent-color: #ff0070;
+    --title-shadow:var(--accent-color);
+    --background-color:#000028;
+    --section-title-color: var(--accent-color);
+    --hover-color: 1px solid rgba(255, 0, 112, 0.4);
+    --title-massage-color: var(--background-color);
+    --corners-color: var(--accent-color);
+    --background-image: url(/images/cover-image-dark.png);
+    --title-decor: var(--accent-color);
+    --image-title-color: var(--background-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --title-color: #ffc2e6;
+    --accent-color: #ff0070;
+    --background-color:#fff1f7;
+    --section-title-color: var(--main-text-color);
+    --title-shadow: var(--accent-color);
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --title-massage-color: var(--main-text-color);
+    --corners-color: var(--main-text-color);
+    --background-image: url(/images/cover-image-light.png);
+    --title-decor: var(#FF8DCB);
+    --image-title-color: var(--main-text-color);
+  }
+}
