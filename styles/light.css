@@ -14,7 +14,7 @@
   --hover-color: 1px solid rgba(50, 49, 45, 0.4);
   --title-massage-color: var(--main-text-color);
   --corners-color: var(--main-text-color);
-  --background-image: url(./images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
   --title-decor:#FF8DCB;
   --image-title-color: var(--main-text-color);
   --link-shadow: var(--title-decor);
@@ -33,7 +33,7 @@
     --hover-color: 1px solid rgba(50, 49, 45, 0.4);
     --title-massage-color: var(--main-text-color);
     --corners-color: var(--main-text-color);
-    --background-image: url(./images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
     --title-decor:#FF8DCB;
     --image-title-color: var(--main-text-color);
     --link-shadow: var(--title-decor);

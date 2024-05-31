@@ -12,7 +12,7 @@
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
   --title-massage-color: var(--background-color);
   --corners-color: var(--accent-color);
-  --background-image: url(./images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   --title-decor: var(--accent-color);
   --image-title-color: var(--background-color);
   --link-shadow: var(--accent-color);
