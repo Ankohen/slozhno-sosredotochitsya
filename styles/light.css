@@ -19,7 +19,7 @@
   --image-title-color: var(--main-text-color);
   --link-shadow: var(--title-decor);
   --feature-color: var(--background-color);
-  --focus-color: var(--main-text-color)
+  --focus-color: var(--main-text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -38,7 +38,7 @@
     --image-title-color: var(--main-text-color);
     --link-shadow: var(--title-decor);
     --feature-color: var(--background-color);
-    --focus-color: var(--main-text-color)
+    --focus-color: var(--main-text-color);
   }
 }
 
