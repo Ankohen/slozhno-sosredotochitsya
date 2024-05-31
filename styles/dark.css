@@ -5,6 +5,10 @@
 */
 
 .page.theme_dark {
+  --font-size: 18px;
+  --line-height: 23.4px;
+  --font-family: 'IBM Plex mono', Courier, monospace;
+  --font-weight: 400;
   --main-text-color: #f1b2ce;
   --title-color: #db00ff;
   --accent-color: #ff0070;
@@ -14,9 +18,10 @@
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
   --title-massage-color: var(--background-color);
   --corners-color: var(--accent-color);
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   --title-decor: var(--accent-color);
   --image-title-color: var(--background-color);
   --link-shadow: var(--accent-color);
   --feature-color: var(--accent-color);
+  --focus-color: var(--accent-color);
 }
