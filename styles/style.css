@@ -1,6 +1,6 @@
 .page {
   background: var(--background-image) no-repeat top center, var(--background-color);
-  background-size: cover 768px;
+  background-size: cover;
   background-attachment: fixed;
   color: var(--main-text-color);
 }
@@ -11,13 +11,13 @@
   height: 100vh;
 }
 
-@media (width < 1024px) and (width > 768px) {
+@media (width >= 1024px) {
   .header {
       min-block-size: 768px;
   }
 }
 
-@media (width <= 768px) and (width > 375px) {
+@media (width < 1024px) and (width >= 768px) {
   .header {
       min-block-size: 1024px;
   }
@@ -108,13 +108,13 @@
   color: var(--title-color);
   font-weight: 700;
   margin-left: -2%;
-  line-height: 129.53px;
+  line-height: 82.5%;
 }
 
 @media (width < 1024px) and (width >=768px) {
   .header-title-container {
-      gap: 145px;
-      padding: 161px 0px 183px;
+      gap: 159px;
+      padding: 178px 0px 183px;
   }
 }
 
@@ -128,7 +128,6 @@
 @media (width < 768px) and (width >=375px) {
   .header-title {
       font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-      line-height: 82%;
       margin: -13px 0px 0px 0px;
   }
 }
@@ -204,7 +203,7 @@
 }
 
 .text__link:hover {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--focus-color);
 }
 
 .text__link:focus {
@@ -212,7 +211,7 @@
 }
 
 .text__link:focus-visible {
-  outline: 1px solid;
+  outline: 1px solid var(--focus-color);
 }
 
 .section:first-of-type,
@@ -295,6 +294,11 @@
   color: var(--title-massage-color);
   font-size: var(--font-size);
   line-height: var(--line-height);
+  font-weight: 700;
+}
+
+.font {
+  font-weight: 400;
 }
 
 .section__text {
@@ -457,8 +461,4 @@
 
 .title-decor {
   background-color: var(--title-decor);
-}
-
-h4 {
-  font-weight: 400;
 }
