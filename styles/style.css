@@ -203,7 +203,7 @@
 }
 
 .text__link:hover {
-  border-bottom: 1px solid var(--focus-color);
+  border-bottom: 1px solid var(--focus-color-text);
 }
 
 .text__link:focus {
@@ -211,7 +211,7 @@
 }
 
 .text__link:focus-visible {
-  outline: 1px solid var(--focus-color);
+  outline: 1px solid var(--focus-color-text);
 }
 
 .section:first-of-type,

@@ -18,5 +18,6 @@
   --link-shadow: var(--accent-color);
   --feature-color: var(--accent-color);
   --focus-color: var(--accent-color);
+  --focus-color-text: var(--main-text-color);
 }
 

@@ -20,6 +20,7 @@
   --link-shadow: var(--title-decor);
   --feature-color: var(--background-color);
   --focus-color: var(--main-text-color);
+  --focus-color-text: var(--main-text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,6 +40,7 @@
     --link-shadow: var(--title-decor);
     --feature-color: var(--background-color);
     --focus-color: var(--main-text-color);
+    --focus-color-text: var(--main-text-color);
   }
 }
 
